@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="author" content="kai">
     <meta name="description" content="my personal website">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal website</title>
-
+    <title>Personal Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <a href="#" class="logo">haifromkai</a>
+    <div class="main_container">
 
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html" target="_self" class="active">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="https://github.com/haifromkai" target="_blank">github</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
+        <div class="left_container">
+            <section class="logo">
+                <a href="index.html">haifromkai</a>
+            </section>
 
-        <p class="quote">practicing the<br>craft of code</p>
-    </header>
-
-    <section class="home">
-        <div class="home-content">
-            <img src="/images/boba.jpg" alt="Image of Kai" style="width:242.8px; height: 380.16px;">
+            <section class="content">
+                <img src="/images/boba.jpg" alt="Image of Kai">
+            </section>
+    
+            <section class="quote">
+                <h1>practicing the<br>craft of code</h1>
+            </section>
         </div>
-    </section>
+
+        <div class="right_container">
+            <nav>
+                <div class="nav-items">
+                    <a href="#" class="active">home</a>
+                    <a href="#">about</a>
+                    <a href="#">projects</a>
+                    <a href="https://github.com/haifromkai" target="_blank">github</a>
+                    <a href="#">contact</a>
+                </div>
+            </nav>
+        </div>
+    </div>
 
 </body>
 
